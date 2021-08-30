@@ -1,0 +1,6 @@
+{
+  "security-opt": {
+    "no-new-privileges": true
+  },
+  "userns-remap": "taxia-runner:taxia-runner"
+}

@@ -1,0 +1,6 @@
+PermitRootLogin no
+PubkeyAuthentication yes
+HostbasedAuthentication no
+KbdInteractiveAuthentication no
+PasswordAuthentication no
+IgnoreRhosts yes

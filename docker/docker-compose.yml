@@ -1,0 +1,9 @@
+services:
+  devenv:
+    image: taxia/devenv
+    container_name: devenv
+    build: ./
+    volumes:
+      - ../src:/opt/app/src
+    ports:
+      - "2222:22"
